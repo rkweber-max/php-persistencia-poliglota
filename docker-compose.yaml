@@ -1,4 +1,4 @@
-version: '3'
+version: "3"
 services:
   php:
     build: .
@@ -9,3 +9,5 @@ services:
     image: postgres:15.4
     environment:
       POSTGRES_PASSWORD: senha_postgres
+  chave_valor:
+    image: redis:7.0.12
